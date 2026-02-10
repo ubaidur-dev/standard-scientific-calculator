@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro Scientific OS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="glass-container">
+        <div class="display-section">
+            <div id="upper-label">SCIENTIFIC MODE</div>
+            <input type="text" id="main-screen" readonly value="0">
+        </div>
+
+        <div class="keypad">
+            <button class="btn sci-btn" data-op="sqrt">√</button>
+            <button class="btn sci-btn" data-op="pow">x²</button>
+            <button class="btn sci-btn" data-op="pi">π</button>
+            <button class="btn sci-btn" data-op="clear">AC</button>
+
+            <button class="btn num" data-val="7">7</button>
+            <button class="btn num" data-val="8">8</button>
+            <button class="btn num" data-val="9">9</button>
+            <button class="btn op" data-val="/">÷</button>
+
+            <button class="btn num" data-val="4">4</button>
+            <button class="btn num" data-val="5">5</button>
+            <button class="btn num" data-val="6">6</button>
+            <button class="btn op" data-val="*">×</button>
+
+            <button class="btn num" data-val="1">1</button>
+            <button class="btn num" data-val="2">2</button>
+            <button class="btn num" data-val="3">3</button>
+            <button class="btn op" data-val="-">−</button>
+
+            <button class="btn num" data-val="0">0</button>
+            <button class="btn num" data-val=".">.</button>
+            <button class="btn equal-btn" id="calculate">=</button>
+            <button class="btn op" data-val="+">+</button>
+        </div>
+    </div>
+
+    <script src="calculator-logic.js"></script>
+</body>
+</html>
