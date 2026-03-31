@@ -19,4 +19,4 @@ My goal was to show how small details like proper depth and tactile effects can 
 ## How to Use
 * Clone or download this repository.
 * Open the **index.html** file in any modern web browser.
-* That's it! No installation or setup required.
+* That's it! **No installation** or **setup** required.
